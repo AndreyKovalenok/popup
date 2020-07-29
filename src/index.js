@@ -1,3 +1,3 @@
-import { popup } from './popup.js';
+import { Popup } from './modal/popup.js';
 
-popup();
+const popup = new Popup('#content', '.open-btn', 'Плагин модального окна');

@@ -1,2 +1,27 @@
 h1 {
-  color: red; }
+  margin: 0; }
+
+body {
+  position: relative;
+  margin: 0; }
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: rgba(0, 0, 0, 0.8); }
+
+.open-btn {
+  padding: 10px 15px;
+  border: 2px solid #eb4034;
+  border-radius: 8px;
+  background-color: transparent;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.8); }
+  .open-btn:hover {
+    transition: 0.2s background-color;
+    cursor: pointer;
+    background-color: rgba(235, 64, 52, 0.1); }

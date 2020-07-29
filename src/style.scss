@@ -1,3 +1,38 @@
+$border-color: #eb4034;
+$font-color: rgba(0, 0, 0, 0.8);
+$shadow-color: #bbbbbb;
+$white-color: #ffffff;
+
 h1 {
-  color: red;
+  margin: 0;
+}
+
+body {
+  position: relative;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: $font-color;
+}
+
+.open-btn {
+  padding: 10px 15px;
+  border: 2px solid $border-color;
+  border-radius: 8px;
+  background-color: transparent;
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 20px;
+  color: $font-color;
+
+  &:hover {
+    transition: 0.2s background-color;
+    cursor: pointer;
+    background-color: rgba($color: $border-color, $alpha: 0.1);
+  }
 }
